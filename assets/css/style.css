@@ -1,0 +1,129 @@
+ html, body {
+     height: 100%;
+     font-family: 'Istok Web', sans-serif;
+     font-size: 1rem;
+     line-height: 1.5;
+     background-color: #f1f1f1;
+}
+ img {
+     max-width: 100%;
+}
+ .bg-light {
+     background-color: #2c3e50 !important;
+}
+ .navbar-light .navbar-brand {
+     color: rgb(255, 255, 255);
+}
+ .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+     color: #18BC9C;
+}
+ .navbar-light .navbar-nav .nav-link {
+     color: rgb(255, 255, 255);
+}
+ .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+     color: #18BC9C;
+}
+ .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+     color: rgb(255, 255, 255);
+}
+ .navbar-light .navbar-nav .nav-link.disabled {
+     color: rgb(255, 255, 255);
+}
+ .height-name {
+     line-height: 50px;
+}
+/* cover */
+ #cover {
+     font-family: 'Shrikhand', cursive;
+     background: #222 url('../img/pexels-photo-442574.jpeg') center center no-repeat ;
+     ;
+     background-size: cover;
+     color: #2c3e50;
+     height: 100%;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     margin-top: 76px;
+}
+ #cover-caption {
+     width: 100%;
+}
+ .bg-cover-text{
+     background-color: white;
+}
+/*About Section*/
+ .section-content {
+     padding: 5rem 0;
+}
+ #about {
+     background: url('../img/pexels-photo-209151(2).jpg') center center no-repeat;
+     background-size: cover;
+     display: flex;
+}
+ .about-text {
+     background: rgba(0,0,0,0.8);
+     color: white;
+     padding: 1.875rem;
+}
+ .cover-text{
+     background: rgba(0,0,0,0.8);
+     color: white;
+     padding: 1.875rem;
+     width: 50%;
+     margin: auto;
+}
+ .footer {
+     padding-top: 5rem;
+     padding-bottom: 5rem;
+     background-color: #2c3e50;
+     color: #fff;
+}
+ .copyright {
+     background-color: #1a252f;
+}
+ #portfolio{
+     background-color: #f1f1f1;
+}
+/* Call To Action Section --------------------------------*/
+ #call-to-action {
+     background-color: #2c3e50;
+     background-size: cover;
+     padding: 80px 0;
+}
+ #call-to-action .cta-title {
+     color: #fff;
+     font-size: 28px;
+     font-weight: 700;
+}
+ #call-to-action .cta-text {
+     color: #fff;
+}
+ @media (min-width: 769px) {
+     #call-to-action .cta-btn-container {
+         display: flex;
+         align-items: center;
+         justify-content: flex-end;
+    }
+}
+ #call-to-action .cta-btn {
+     font-family: "Montserrat", sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     letter-spacing: 1px;
+     display: inline-block;
+     padding: 8px 30px;
+     border-radius: 25px;
+     transition: background 0.5s;
+     margin: 10px;
+     border: 2px solid #fff;
+     color: #fff;
+}
+ #call-to-action .cta-btn:hover {
+     background: #1dc8cd;
+     border: 2px solid #1dc8cd;
+}
+
+
+
+
+

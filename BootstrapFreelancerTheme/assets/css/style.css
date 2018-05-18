@@ -1,0 +1,157 @@
+body, html {
+	 /*font-family: 'Roboto', sans-serif;
+
+    font-family: 'Do Hyeon', sans-serif;
+
+    font-family: 'Black Han Sans', sans-serif;
+
+    font-family: 'Hi Melody', cursive;
+
+    font-family: 'Muli', sans-serif;*/
+
+    /*font-family: 'Istok Web', sans-serif;*/
+    height: 100%;
+    margin: 0;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+    
+/*cover*/
+#cover {
+    width: 100%;
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../img/cover.jpeg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   /* margin-top: 76px;*/
+}
+
+
+
+
+/*My Web Solutions*/
+
+#my-solutions {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.serviceBox{ text-align: center; }
+.serviceBox .service-icon{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    background: #ff5449;
+    margin-bottom: 25px;
+    font-size: 40px;
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+.serviceBox:hover .service-icon{ transform: scale(1.1); }
+.serviceBox .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #471437;
+    text-transform: uppercase;
+    margin: 0 0 12px 0;
+    position: relative;
+}
+.serviceBox .title:before,
+.serviceBox .title:after{
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #ff5449;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+}
+.serviceBox .title:after{
+    left: auto;
+    right: 40%;
+}
+.serviceBox:hover .title:before{
+    opacity: 1;
+    left: 5%;
+}
+.serviceBox:hover .title:after{
+    opacity: 1;
+    right: 5%;
+}
+.serviceBox .description{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #6f6f6f;
+}
+@media only screen and (max-width:990px){
+    .serviceBox{ margin-bottom: 30px; }
+}
+
+
+
+.footer-copyright {
+    background: #2c3e50 url(../img/pattern.png) repeat center center !important;
+    color: white;
+}
+
+#contact {
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    padding: 60px 0;
+    background-color: #f1f1f1;
+}
+
+#contact .social-links {
+    padding-bottom: 20px;
+}
+#contact .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #fff;
+    color: #343a40;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    border: 1px solid #343a40;
+}
+
+#contact .info {
+    color: #333333;
+}
+
+#contact .info i {
+    font-size: 32px;
+    color: #343a40;
+    float: left;
+    line-height: 1;
+}
+#contact .form button[type="submit"] {
+    background: linear-gradient(45deg, #343a40, #576d83);
+    border: 0;
+    border-radius: 20px;
+    padding: 8px 30px;
+    color: #fff;
+}
+
